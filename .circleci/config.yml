@@ -19,7 +19,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - run: sudo apt-get install subversion
+      - run: sudo apt-get install subversion mysql
       - checkout
 
       # Download and cache dependencies
