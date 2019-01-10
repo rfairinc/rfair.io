@@ -2,6 +2,11 @@
     "name": "rfairinc/rfairio",
     "description": "The website code for rfair.io",
     "type": "project",
+    "platform": {
+        "php": "7.2"
+    },
+    "sort-packages": true,
+    "optimize-autoloader": true,
     "license": "GPL v2.0+",
     "authors": [
         {
@@ -9,5 +14,14 @@
             "email": "r@rfair.io"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.0.0"
+    }
 }
