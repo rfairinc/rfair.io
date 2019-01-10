@@ -59,3 +59,6 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# PHP Storm generated files
+.idea
