@@ -113,6 +113,11 @@ else:
   endif;
 endif;
 
+/* Import composer managed autoloader */
+if ( file_exists( 'vendor/autoloader.php' ) ) {
+    require_once 'vendor/autoloader.php';
+}
+
 /** Standard wp-config.php stuff from here on down. **/
 
 /**
