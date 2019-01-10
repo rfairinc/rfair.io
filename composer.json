@@ -7,6 +7,7 @@
     },
     "sort-packages": true,
     "optimize-autoloader": true,
+    "preferred-install": "dist",
     "license": "GPL v2.0+",
     "authors": [
         {
@@ -22,6 +23,7 @@
     ],
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "6.0.0"
+        "phpunit/phpunit": "5.0",
+        "frozzare/wp-test-suite": "1.1.1"
     }
 }
