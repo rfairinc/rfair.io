@@ -1,0 +1,13 @@
+{
+    "name": "rfairinc/rfairio",
+    "description": "The website code for rfair.io",
+    "type": "project",
+    "license": "GPL v2.0+",
+    "authors": [
+        {
+            "name": "Russell Fair",
+            "email": "r@rfair.io"
+        }
+    ],
+    "require": {}
+}
