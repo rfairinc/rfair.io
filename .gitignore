@@ -15,6 +15,7 @@ sitemap.xml
 sitemap.xml.gz
 *.log
 .htaccess
+wp-config-sample.php
 
 # @TODO writable paths
 wp-content/cache/
