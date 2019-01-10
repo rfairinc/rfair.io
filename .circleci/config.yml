@@ -19,7 +19,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - run: apt-get install subversion
+      - run: sudo apt-get install subversion
       - checkout
 
       # Download and cache dependencies
