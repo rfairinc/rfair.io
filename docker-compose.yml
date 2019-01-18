@@ -26,12 +26,17 @@ services:
       WORDPRESS_DB_USER: wordpress_user
       WORDPRESS_DB_PASSWORD: mysql_password
     volumes:
-    - ./:/var/www/html
+    - ./web:/var/www/html
+    - ./wp-config.php:/var/www/wp-config.php
+    - ./wp-config-local.php:/var/www/wp-config-local.php
+
 
   wpcli:
-    image: wordpress:cli-2.0.1-php7.2
+    image: wordpress:cli-2.1.0-php7.2
     volumes:
-      - ./:/var/www/html
+      - ./web:/var/www/html
+      - ./wp-config.php:/var/www/wp-config.php
+      - ./wp-config-local.php:/var/www/wp-config-local.php
 
     links:
       - db:mysql
